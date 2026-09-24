@@ -11,8 +11,13 @@ config_version=5
 [application]
 
 config/name="GAM_Capstone"
+run/main_scene="uid://dkkh4kltexgbk"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+AudioStreamPlayerGlobal="*uid://dtmrnm81jwopd"
 
 [display]
 
